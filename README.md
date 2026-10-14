@@ -22,6 +22,7 @@
 | **MCP Delegation** | Delegate tugas ke model custom via MCP tools |
 | **Streamed Chat** | Streaming response dari model custom |
 | **Effort Variants** | Low/medium/high effort untuk reasoning models |
+| **Multi-Provider** | **37 provider**: OpenAI, Anthropic, Gemini, Groq, DeepSeek, xAI, NVIDIA, OpenRouter, Mistral, dll + 10 local server |
 | **Browser Manager** | Kelola model dari browser dengan UI lengkap |
 | **Multi-Provider** | OpenAI, Anthropic, Gemini, OpenRouter, dll |
 

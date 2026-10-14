@@ -50,6 +50,29 @@
 
 ## Instalasi Cepat
 
+### Auto-Setup (Recommended)
+
+Script ini akan install dependencies, build, detect IDE, apply patch, dan **otomatis membuat shortcut di Desktop**.
+
+**Windows:**
+```powershell
+git clone https://github.com/qomaruddindjamal/MitraAI-IDE.git
+cd MitraAI-IDE
+setup.bat
+```
+
+**Linux/macOS:**
+```bash
+git clone https://github.com/qomaruddindjamal/MitraAI-IDE.git
+cd MitraAI-IDE
+chmod +x setup.sh
+./setup.sh
+```
+
+Setelah setup, shortcut **"MitraAI IDE"** akan muncul di Desktop.
+
+### Manual Installation
+
 ### Windows
 
 ```powershell

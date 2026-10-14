@@ -13,6 +13,44 @@
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-0078D4" alt="Platform">
 </p>
 
+## Instalasi All-in-One (Recommended)
+
+Satu perintah untuk install **semuanya** - bahkan di PC yang belum ada Antigravity IDE:
+
+- Download & install Antigravity IDE
+- Download & install Antigravity standalone
+- Install patch + custom model support (37 provider)
+- Fix port 50999 permanen (Hyper-V/WinNAT)
+- Buat shortcut Desktop
+
+### Windows (Run as Administrator)
+
+```powershell
+powershell -Command "Invoke-WebRequest -Uri https://raw.githubusercontent.com/qomaruddindjamal/MitraAI-IDE/main/install.bat -OutFile install.bat"; .\install.bat
+```
+
+Atau jika sudah clone:
+```powershell
+cd MitraAI-IDE
+.\install.bat
+```
+
+### Linux / macOS
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/qomaruddindjamal/MitraAI-IDE/main/install.sh | bash
+```
+
+Atau jika sudah clone:
+```bash
+cd MitraAI-IDE
+chmod +x install.sh
+./install.sh
+```
+
+Setelah instalasi, shortcut **"MitraAI IDE"** dan **"MitraAI"** muncul di Desktop. Langsung bisa dijalankan tanpa error!
+
+
 ## Fitur Utama
 
 | Fitur | Deskripsi |

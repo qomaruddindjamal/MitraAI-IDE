@@ -13,43 +13,50 @@
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-0078D4" alt="Platform">
 </p>
 
-## Instalasi All-in-One (Recommended)
+## Instalasi Complete Package (RECOMMENDED)
 
-Satu perintah untuk install **semuanya** - bahkan di PC yang belum ada Antigravity IDE:
-
-- Download & install Antigravity IDE
-- Download & install Antigravity standalone
-- Install patch + custom model support (37 provider)
-- Fix port 50999 permanen (Hyper-V/WinNAT)
-- Buat shortcut Desktop
+Satu installer untuk **SEMUA fitur** - termasuk kolaborasi Standalone <-> IDE!
 
 ### Windows (Run as Administrator)
 
 ```powershell
-powershell -Command "Invoke-WebRequest -Uri https://raw.githubusercontent.com/qomaruddindjamal/MitraAI-IDE/main/install.bat -OutFile install.bat"; .\install.bat
+powershell -Command "Invoke-WebRequest -Uri https://raw.githubusercontent.com/qomaruddindjamal/MitraAI-IDE/main/install-complete.bat -OutFile install-complete.bat"; .\install-complete.bat
 ```
 
 Atau jika sudah clone:
 ```powershell
 cd MitraAI-IDE
-.\install.bat
+.\install-complete.bat
 ```
 
-### Linux / macOS
+### Yang Diinstall:
+
+✓ Antigravity IDE
+✓ Antigravity Standalone
+✓ MCP Bridge (Qoder integration)
+✓ Collaboration System (Standalone <-> IDE)
+✓ Chat Bridge (interactive communication)
+✓ 37 AI Providers Support
+✓ Port 50999 Fix (permanent)
+✓ Desktop Shortcuts
+
+### Setelah Install:
+
+1. **MitraAI IDE** - Jalankan code editor
+2. **MitraAI** - Jalankan standalone app
+3. **Chat Bridge** - Kolaborasi antara IDE dan Standalone
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/qomaruddindjamal/MitraAI-IDE/main/install.sh | bash
+# Mulai kolaborasi
+python chat_bridge.py
+
+# Commands:
+/ide         - Switch ke mode IDE
+/standalone  - Switch ke mode Standalone
+/messages    - Lihat pesan
+/report      - Submit work report
+/assign      - Assign task
 ```
-
-Atau jika sudah clone:
-```bash
-cd MitraAI-IDE
-chmod +x install.sh
-./install.sh
-```
-
-Setelah instalasi, shortcut **"MitraAI IDE"** dan **"MitraAI"** muncul di Desktop. Langsung bisa dijalankan tanpa error!
-
 
 ## Fitur Utama
 
